@@ -1,4 +1,3 @@
-# Contributing to ModMedic
 
 Contributions are welcome: compatibility reports, tests, documentation, accessibility improvements, and new log patterns are especially useful.
 
