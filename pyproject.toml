@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modmedic"
+version = "0.1.0"
+description = "Local-first diagnostics for BepInEx game mods"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "ModMedic contributors" }]
+keywords = ["bepinex", "mods", "diagnostics", "games"]
+
+[project.scripts]
+modmedic = "modmedic.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+modmedic = ["assets/*.png"]
